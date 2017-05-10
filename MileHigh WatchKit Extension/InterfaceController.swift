@@ -12,6 +12,8 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var labeler: WKInterfaceLabel!
+  
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         

@@ -24,6 +24,7 @@
                         </label>
                     </items>
                     <connections>
+                        <outlet property="labeler" destination="cxd-uk-bqZ" id="AGX-wx-bU1"/>
                         <segue destination="P8W-vU-vDr" kind="relationship" relationship="nextPage" id="JLm-6C-ywu"/>
                     </connections>
                 </controller>

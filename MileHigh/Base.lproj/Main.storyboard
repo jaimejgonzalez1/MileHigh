@@ -209,7 +209,7 @@
                             <outlet property="delegate" destination="Ep9-0L-dQW" id="SUd-Cy-TYA"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Settings" image="settings" selectedImage="settings" id="t4g-MB-5s0"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings-1" selectedImage="settings-1" id="t4g-MB-5s0"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vYH-kx-gMg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -407,6 +407,6 @@
         <image name="bar-chart" width="25" height="25"/>
         <image name="compass" width="25" height="25"/>
         <image name="hero_running_watch" width="1600" height="710"/>
-        <image name="settings" width="25" height="25"/>
+        <image name="settings-1" width="25" height="25"/>
     </resources>
 </document>

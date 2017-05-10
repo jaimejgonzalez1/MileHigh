@@ -17,6 +17,8 @@ class ViewControllerRunner: UIViewController {
     var paused: Bool = false
     var user = UserDefaults.standard
     
+    
+    
 
     @IBOutlet weak var points: UILabel!
     var days:[String] = []
