@@ -21,12 +21,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="MH_Brand-2" translatesAutoresizingMaskIntoConstraints="NO" id="bbT-8l-doA">
-                                <rect key="frame" x="-9.5" y="158" width="393" height="356"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hero_running_watch" translatesAutoresizingMaskIntoConstraints="NO" id="xOl-LM-6tg">
                                 <rect key="frame" x="-436" y="0.0" width="1600" height="710"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="MH_Brand-2" translatesAutoresizingMaskIntoConstraints="NO" id="bbT-8l-doA">
+                                <rect key="frame" x="-10" y="158" width="393" height="356"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
