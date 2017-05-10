@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MileHigh WatchKit App (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>MileHigh WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>MileHigh.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,7 +22,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2E5AFC6B1E9CA6F900B8F5FD</key>
+		<key>2E9A8C101EC1942E003D9D47</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2E9A8C221EC1942E003D9D47</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,77 +7,212 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E5AFC701E9CA6F900B8F5FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5AFC6F1E9CA6F900B8F5FD /* AppDelegate.swift */; };
-		2E5AFC721E9CA6F900B8F5FD /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5AFC711E9CA6F900B8F5FD /* Settings.swift */; };
-		2E5AFC741E9CA6F900B8F5FD /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5AFC731E9CA6F900B8F5FD /* Record.swift */; };
-		2E5AFC771E9CA6F900B8F5FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5AFC751E9CA6F900B8F5FD /* Main.storyboard */; };
-		2E5AFC791E9CA6F900B8F5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5AFC781E9CA6F900B8F5FD /* Assets.xcassets */; };
-		2E5AFC7C1E9CA6F900B8F5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5AFC7A1E9CA6F900B8F5FD /* LaunchScreen.storyboard */; };
-		2E98ECA81EA8F6CC0044256E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E98ECA71EA8F6CC0044256E /* CoreMotion.framework */; };
-		2E98ECAA1EA8F86E0044256E /* coins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E98ECA91EA8F86E0044256E /* coins.swift */; };
+		2E9980B81EC2655B00588B4F /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2E9980B41EC2655B00588B4F /* OFL.txt */; };
+		2E9980B91EC2655B00588B4F /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2E9980B41EC2655B00588B4F /* OFL.txt */; };
+		2E9980BA1EC2655B00588B4F /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2E9980B41EC2655B00588B4F /* OFL.txt */; };
+		2E9980BB1EC2655B00588B4F /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E9980B51EC2655B00588B4F /* Oswald-Bold.ttf */; };
+		2E9980BC1EC2655B00588B4F /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E9980B51EC2655B00588B4F /* Oswald-Bold.ttf */; };
+		2E9980BD1EC2655B00588B4F /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E9980B51EC2655B00588B4F /* Oswald-Bold.ttf */; };
+		2E9980BE1EC2655B00588B4F /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E9980B61EC2655B00588B4F /* Oswald-Light.ttf */; };
+		2E9980BF1EC2655B00588B4F /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E9980B61EC2655B00588B4F /* Oswald-Light.ttf */; };
+		2E9980C01EC2655B00588B4F /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E9980B61EC2655B00588B4F /* Oswald-Light.ttf */; };
+		2E9980C11EC2655B00588B4F /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E9980B71EC2655B00588B4F /* Oswald-Regular.ttf */; };
+		2E9980C21EC2655B00588B4F /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E9980B71EC2655B00588B4F /* Oswald-Regular.ttf */; };
+		2E9980C31EC2655B00588B4F /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E9980B71EC2655B00588B4F /* Oswald-Regular.ttf */; };
+		2E9A8C151EC1942E003D9D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A8C141EC1942E003D9D47 /* AppDelegate.swift */; };
+		2E9A8C171EC1942E003D9D47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A8C161EC1942E003D9D47 /* ViewController.swift */; };
+		2E9A8C1A1EC1942E003D9D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A8C181EC1942E003D9D47 /* Main.storyboard */; };
+		2E9A8C1C1EC1942E003D9D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A8C1B1EC1942E003D9D47 /* Assets.xcassets */; };
+		2E9A8C1F1EC1942E003D9D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A8C1D1EC1942E003D9D47 /* LaunchScreen.storyboard */; };
+		2E9A8C241EC1942E003D9D47 /* MileHigh WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2E9A8C231EC1942E003D9D47 /* MileHigh WatchKit App.app */; };
+		2E9A8C2A1EC1942E003D9D47 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A8C281EC1942E003D9D47 /* Interface.storyboard */; };
+		2E9A8C2C1EC1942E003D9D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A8C2B1EC1942E003D9D47 /* Assets.xcassets */; };
+		2E9A8C331EC1942E003D9D47 /* MileHigh WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2E9A8C321EC1942E003D9D47 /* MileHigh WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2E9A8C3A1EC1942E003D9D47 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A8C391EC1942E003D9D47 /* InterfaceController.swift */; };
+		2E9A8C3C1EC1942E003D9D47 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A8C3B1EC1942E003D9D47 /* ExtensionDelegate.swift */; };
+		2E9A8C3E1EC1942E003D9D47 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A8C3D1EC1942E003D9D47 /* NotificationController.swift */; };
+		2E9A8C401EC1942E003D9D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A8C3F1EC1942E003D9D47 /* Assets.xcassets */; };
+		2EA826691EC2924D00E29502 /* ViewControllerRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA826681EC2924D00E29502 /* ViewControllerRunner.swift */; };
+		2EA8266F1EC2954700E29502 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA8266E1EC2954700E29502 /* CoreMotion.framework */; };
+		2EA826711EC2975B00E29502 /* Volume.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2EA826701EC2975B00E29502 /* Volume.mp4 */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2E9A8C251EC1942E003D9D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E9A8C091EC1942E003D9D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E9A8C221EC1942E003D9D47;
+			remoteInfo = "MileHigh WatchKit App";
+		};
+		2E9A8C341EC1942E003D9D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E9A8C091EC1942E003D9D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E9A8C311EC1942E003D9D47;
+			remoteInfo = "MileHigh WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E9A8C471EC1942E003D9D47 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2E9A8C331EC1942E003D9D47 /* MileHigh WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9A8C4B1EC1942E003D9D47 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2E9A8C241EC1942E003D9D47 /* MileHigh WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		2E5AFC6C1E9CA6F900B8F5FD /* MileHigh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MileHigh.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E5AFC6F1E9CA6F900B8F5FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E5AFC711E9CA6F900B8F5FD /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		2E5AFC731E9CA6F900B8F5FD /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
-		2E5AFC761E9CA6F900B8F5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2E5AFC781E9CA6F900B8F5FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2E5AFC7B1E9CA6F900B8F5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2E5AFC7D1E9CA6F900B8F5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E98ECA71EA8F6CC0044256E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		2E98ECA91EA8F86E0044256E /* coins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coins.swift; sourceTree = "<group>"; };
+		2E9980B41EC2655B00588B4F /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		2E9980B51EC2655B00588B4F /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		2E9980B61EC2655B00588B4F /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
+		2E9980B71EC2655B00588B4F /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		2E9A8C111EC1942E003D9D47 /* MileHigh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MileHigh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9A8C141EC1942E003D9D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E9A8C161EC1942E003D9D47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E9A8C191EC1942E003D9D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E9A8C1B1EC1942E003D9D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E9A8C1E1EC1942E003D9D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E9A8C201EC1942E003D9D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E9A8C231EC1942E003D9D47 /* MileHigh WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MileHigh WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9A8C291EC1942E003D9D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2E9A8C2B1EC1942E003D9D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E9A8C2D1EC1942E003D9D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E9A8C321EC1942E003D9D47 /* MileHigh WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MileHigh WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9A8C381EC1942E003D9D47 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2E9A8C391EC1942E003D9D47 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2E9A8C3B1EC1942E003D9D47 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		2E9A8C3D1EC1942E003D9D47 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2E9A8C3F1EC1942E003D9D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E9A8C411EC1942E003D9D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA826681EC2924D00E29502 /* ViewControllerRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerRunner.swift; sourceTree = "<group>"; };
+		2EA8266A1EC293DD00E29502 /* MileHigh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MileHigh.entitlements; sourceTree = "<group>"; };
+		2EA8266E1EC2954700E29502 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		2EA826701EC2975B00E29502 /* Volume.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Volume.mp4; sourceTree = "<group>"; };
+		2EA826721EC2AE1000E29502 /* MileHigh WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MileHigh WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2E5AFC691E9CA6F900B8F5FD /* Frameworks */ = {
+		2E9A8C0E1EC1942E003D9D47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E98ECA81EA8F6CC0044256E /* CoreMotion.framework in Frameworks */,
+				2EA8266F1EC2954700E29502 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9A8C2F1EC1942E003D9D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E5AFC631E9CA6F900B8F5FD = {
+		2E9980B31EC2655B00588B4F /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				2E5AFC6E1E9CA6F900B8F5FD /* MileHigh */,
-				2E5AFC6D1E9CA6F900B8F5FD /* Products */,
-				2E98ECA61EA8F6CC0044256E /* Frameworks */,
+				2EA826701EC2975B00E29502 /* Volume.mp4 */,
+				2E9980B41EC2655B00588B4F /* OFL.txt */,
+				2E9980B51EC2655B00588B4F /* Oswald-Bold.ttf */,
+				2E9980B61EC2655B00588B4F /* Oswald-Light.ttf */,
+				2E9980B71EC2655B00588B4F /* Oswald-Regular.ttf */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		2E9A8C081EC1942E003D9D47 = {
+			isa = PBXGroup;
+			children = (
+				2E9A8C131EC1942E003D9D47 /* MileHigh */,
+				2E9A8C271EC1942E003D9D47 /* MileHigh WatchKit App */,
+				2E9A8C361EC1942E003D9D47 /* MileHigh WatchKit Extension */,
+				2E9A8C121EC1942E003D9D47 /* Products */,
+				2EA8266B1EC293DD00E29502 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		2E5AFC6D1E9CA6F900B8F5FD /* Products */ = {
+		2E9A8C121EC1942E003D9D47 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E5AFC6C1E9CA6F900B8F5FD /* MileHigh.app */,
+				2E9A8C111EC1942E003D9D47 /* MileHigh.app */,
+				2E9A8C231EC1942E003D9D47 /* MileHigh WatchKit App.app */,
+				2E9A8C321EC1942E003D9D47 /* MileHigh WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E5AFC6E1E9CA6F900B8F5FD /* MileHigh */ = {
+		2E9A8C131EC1942E003D9D47 /* MileHigh */ = {
 			isa = PBXGroup;
 			children = (
-				2E5AFC6F1E9CA6F900B8F5FD /* AppDelegate.swift */,
-				2E5AFC711E9CA6F900B8F5FD /* Settings.swift */,
-				2E5AFC731E9CA6F900B8F5FD /* Record.swift */,
-				2E98ECA91EA8F86E0044256E /* coins.swift */,
-				2E5AFC751E9CA6F900B8F5FD /* Main.storyboard */,
-				2E5AFC781E9CA6F900B8F5FD /* Assets.xcassets */,
-				2E5AFC7A1E9CA6F900B8F5FD /* LaunchScreen.storyboard */,
-				2E5AFC7D1E9CA6F900B8F5FD /* Info.plist */,
+				2EA8266A1EC293DD00E29502 /* MileHigh.entitlements */,
+				2E9980B31EC2655B00588B4F /* resources */,
+				2E9A8C141EC1942E003D9D47 /* AppDelegate.swift */,
+				2E9A8C161EC1942E003D9D47 /* ViewController.swift */,
+				2E9A8C181EC1942E003D9D47 /* Main.storyboard */,
+				2E9A8C1B1EC1942E003D9D47 /* Assets.xcassets */,
+				2E9A8C1D1EC1942E003D9D47 /* LaunchScreen.storyboard */,
+				2E9A8C201EC1942E003D9D47 /* Info.plist */,
+				2EA826681EC2924D00E29502 /* ViewControllerRunner.swift */,
 			);
 			path = MileHigh;
 			sourceTree = "<group>";
 		};
-		2E98ECA61EA8F6CC0044256E /* Frameworks */ = {
+		2E9A8C271EC1942E003D9D47 /* MileHigh WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				2E98ECA71EA8F6CC0044256E /* CoreMotion.framework */,
+				2E9A8C281EC1942E003D9D47 /* Interface.storyboard */,
+				2E9A8C2B1EC1942E003D9D47 /* Assets.xcassets */,
+				2E9A8C2D1EC1942E003D9D47 /* Info.plist */,
+				2EA826721EC2AE1000E29502 /* MileHigh WatchKit App-Bridging-Header.h */,
+			);
+			path = "MileHigh WatchKit App";
+			sourceTree = "<group>";
+		};
+		2E9A8C361EC1942E003D9D47 /* MileHigh WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2E9A8C3B1EC1942E003D9D47 /* ExtensionDelegate.swift */,
+				2E9A8C3D1EC1942E003D9D47 /* NotificationController.swift */,
+				2E9A8C3F1EC1942E003D9D47 /* Assets.xcassets */,
+				2E9A8C411EC1942E003D9D47 /* Info.plist */,
+				2E9A8C371EC1942E003D9D47 /* Supporting Files */,
+			);
+			path = "MileHigh WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2E9A8C371EC1942E003D9D47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E9A8C391EC1942E003D9D47 /* InterfaceController.swift */,
+				2E9A8C381EC1942E003D9D47 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EA8266B1EC293DD00E29502 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EA8266E1EC2954700E29502 /* CoreMotion.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,41 +220,96 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2E5AFC6B1E9CA6F900B8F5FD /* MileHigh */ = {
+		2E9A8C101EC1942E003D9D47 /* MileHigh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E5AFC801E9CA6F900B8F5FD /* Build configuration list for PBXNativeTarget "MileHigh" */;
+			buildConfigurationList = 2E9A8C4C1EC1942E003D9D47 /* Build configuration list for PBXNativeTarget "MileHigh" */;
 			buildPhases = (
-				2E5AFC681E9CA6F900B8F5FD /* Sources */,
-				2E5AFC691E9CA6F900B8F5FD /* Frameworks */,
-				2E5AFC6A1E9CA6F900B8F5FD /* Resources */,
+				2E9A8C0D1EC1942E003D9D47 /* Sources */,
+				2E9A8C0E1EC1942E003D9D47 /* Frameworks */,
+				2E9A8C0F1EC1942E003D9D47 /* Resources */,
+				2E9A8C4B1EC1942E003D9D47 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E9A8C261EC1942E003D9D47 /* PBXTargetDependency */,
+			);
+			name = MileHigh;
+			productName = MileHigh;
+			productReference = 2E9A8C111EC1942E003D9D47 /* MileHigh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E9A8C221EC1942E003D9D47 /* MileHigh WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E9A8C481EC1942E003D9D47 /* Build configuration list for PBXNativeTarget "MileHigh WatchKit App" */;
+			buildPhases = (
+				2E9A8C211EC1942E003D9D47 /* Resources */,
+				2E9A8C471EC1942E003D9D47 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E9A8C351EC1942E003D9D47 /* PBXTargetDependency */,
+			);
+			name = "MileHigh WatchKit App";
+			productName = "MileHigh WatchKit App";
+			productReference = 2E9A8C231EC1942E003D9D47 /* MileHigh WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2E9A8C311EC1942E003D9D47 /* MileHigh WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E9A8C441EC1942E003D9D47 /* Build configuration list for PBXNativeTarget "MileHigh WatchKit Extension" */;
+			buildPhases = (
+				2E9A8C2E1EC1942E003D9D47 /* Sources */,
+				2E9A8C2F1EC1942E003D9D47 /* Frameworks */,
+				2E9A8C301EC1942E003D9D47 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MileHigh;
-			productName = MileHigh;
-			productReference = 2E5AFC6C1E9CA6F900B8F5FD /* MileHigh.app */;
-			productType = "com.apple.product-type.application";
+			name = "MileHigh WatchKit Extension";
+			productName = "MileHigh WatchKit Extension";
+			productReference = 2E9A8C321EC1942E003D9D47 /* MileHigh WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2E5AFC641E9CA6F900B8F5FD /* Project object */ = {
+		2E9A8C091EC1942E003D9D47 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "columbia college";
 				TargetAttributes = {
-					2E5AFC6B1E9CA6F900B8F5FD = {
-						CreatedOnToolsVersion = 8.3;
+					2E9A8C101EC1942E003D9D47 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JKK3CZ2Z5Q;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+						};
+					};
+					2E9A8C221EC1942E003D9D47 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JKK3CZ2Z5Q;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					2E9A8C311EC1942E003D9D47 = {
+						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = JKK3CZ2Z5Q;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 2E5AFC671E9CA6F900B8F5FD /* Build configuration list for PBXProject "MileHigh" */;
+			buildConfigurationList = 2E9A8C0C1EC1942E003D9D47 /* Build configuration list for PBXProject "MileHigh" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -127,64 +317,126 @@
 				en,
 				Base,
 			);
-			mainGroup = 2E5AFC631E9CA6F900B8F5FD;
-			productRefGroup = 2E5AFC6D1E9CA6F900B8F5FD /* Products */;
+			mainGroup = 2E9A8C081EC1942E003D9D47;
+			productRefGroup = 2E9A8C121EC1942E003D9D47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E5AFC6B1E9CA6F900B8F5FD /* MileHigh */,
+				2E9A8C101EC1942E003D9D47 /* MileHigh */,
+				2E9A8C221EC1942E003D9D47 /* MileHigh WatchKit App */,
+				2E9A8C311EC1942E003D9D47 /* MileHigh WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2E5AFC6A1E9CA6F900B8F5FD /* Resources */ = {
+		2E9A8C0F1EC1942E003D9D47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E5AFC7C1E9CA6F900B8F5FD /* LaunchScreen.storyboard in Resources */,
-				2E5AFC791E9CA6F900B8F5FD /* Assets.xcassets in Resources */,
-				2E5AFC771E9CA6F900B8F5FD /* Main.storyboard in Resources */,
+				2E9A8C1F1EC1942E003D9D47 /* LaunchScreen.storyboard in Resources */,
+				2EA826711EC2975B00E29502 /* Volume.mp4 in Resources */,
+				2E9980BB1EC2655B00588B4F /* Oswald-Bold.ttf in Resources */,
+				2E9A8C1C1EC1942E003D9D47 /* Assets.xcassets in Resources */,
+				2E9980C11EC2655B00588B4F /* Oswald-Regular.ttf in Resources */,
+				2E9980BE1EC2655B00588B4F /* Oswald-Light.ttf in Resources */,
+				2E9980B81EC2655B00588B4F /* OFL.txt in Resources */,
+				2E9A8C1A1EC1942E003D9D47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9A8C211EC1942E003D9D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9980B91EC2655B00588B4F /* OFL.txt in Resources */,
+				2E9980C21EC2655B00588B4F /* Oswald-Regular.ttf in Resources */,
+				2E9980BF1EC2655B00588B4F /* Oswald-Light.ttf in Resources */,
+				2E9A8C2C1EC1942E003D9D47 /* Assets.xcassets in Resources */,
+				2E9A8C2A1EC1942E003D9D47 /* Interface.storyboard in Resources */,
+				2E9980BC1EC2655B00588B4F /* Oswald-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9A8C301EC1942E003D9D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9980C31EC2655B00588B4F /* Oswald-Regular.ttf in Resources */,
+				2E9980BA1EC2655B00588B4F /* OFL.txt in Resources */,
+				2E9A8C401EC1942E003D9D47 /* Assets.xcassets in Resources */,
+				2E9980BD1EC2655B00588B4F /* Oswald-Bold.ttf in Resources */,
+				2E9980C01EC2655B00588B4F /* Oswald-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2E5AFC681E9CA6F900B8F5FD /* Sources */ = {
+		2E9A8C0D1EC1942E003D9D47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E5AFC741E9CA6F900B8F5FD /* Record.swift in Sources */,
-				2E98ECAA1EA8F86E0044256E /* coins.swift in Sources */,
-				2E5AFC701E9CA6F900B8F5FD /* AppDelegate.swift in Sources */,
-				2E5AFC721E9CA6F900B8F5FD /* Settings.swift in Sources */,
+				2E9A8C171EC1942E003D9D47 /* ViewController.swift in Sources */,
+				2E9A8C151EC1942E003D9D47 /* AppDelegate.swift in Sources */,
+				2EA826691EC2924D00E29502 /* ViewControllerRunner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9A8C2E1EC1942E003D9D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9A8C3E1EC1942E003D9D47 /* NotificationController.swift in Sources */,
+				2E9A8C3C1EC1942E003D9D47 /* ExtensionDelegate.swift in Sources */,
+				2E9A8C3A1EC1942E003D9D47 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2E9A8C261EC1942E003D9D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E9A8C221EC1942E003D9D47 /* MileHigh WatchKit App */;
+			targetProxy = 2E9A8C251EC1942E003D9D47 /* PBXContainerItemProxy */;
+		};
+		2E9A8C351EC1942E003D9D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E9A8C311EC1942E003D9D47 /* MileHigh WatchKit Extension */;
+			targetProxy = 2E9A8C341EC1942E003D9D47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		2E5AFC751E9CA6F900B8F5FD /* Main.storyboard */ = {
+		2E9A8C181EC1942E003D9D47 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2E5AFC761E9CA6F900B8F5FD /* Base */,
+				2E9A8C191EC1942E003D9D47 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2E5AFC7A1E9CA6F900B8F5FD /* LaunchScreen.storyboard */ = {
+		2E9A8C1D1EC1942E003D9D47 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2E5AFC7B1E9CA6F900B8F5FD /* Base */,
+				2E9A8C1E1EC1942E003D9D47 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9A8C281EC1942E003D9D47 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9A8C291EC1942E003D9D47 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2E5AFC7E1E9CA6F900B8F5FD /* Debug */ = {
+		2E9A8C421EC1942E003D9D47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +486,7 @@
 			};
 			name = Debug;
 		};
-		2E5AFC7F1E9CA6F900B8F5FD /* Release */ = {
+		2E9A8C431EC1942E003D9D47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -277,7 +529,84 @@
 			};
 			name = Release;
 		};
-		2E5AFC811E9CA6F900B8F5FD /* Debug */ = {
+		2E9A8C451EC1942E003D9D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = JKK3CZ2Z5Q;
+				INFOPLIST_FILE = "MileHigh WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.colum.MileHigh.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		2E9A8C461EC1942E003D9D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = JKK3CZ2Z5Q;
+				INFOPLIST_FILE = "MileHigh WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.colum.MileHigh.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		2E9A8C491EC1942E003D9D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = JKK3CZ2Z5Q;
+				IBSC_MODULE = MileHigh_WatchKit_Extension;
+				INFOPLIST_FILE = "MileHigh WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.colum.MileHigh.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MileHigh WatchKit App/MileHigh WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		2E9A8C4A1EC1942E003D9D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = JKK3CZ2Z5Q;
+				IBSC_MODULE = MileHigh_WatchKit_Extension;
+				INFOPLIST_FILE = "MileHigh WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.colum.MileHigh.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MileHigh WatchKit App/MileHigh WatchKit App-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		2E9A8C4D1EC1942E003D9D47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -290,7 +619,7 @@
 			};
 			name = Debug;
 		};
-		2E5AFC821E9CA6F900B8F5FD /* Release */ = {
+		2E9A8C4E1EC1942E003D9D47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -306,25 +635,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E5AFC671E9CA6F900B8F5FD /* Build configuration list for PBXProject "MileHigh" */ = {
+		2E9A8C0C1EC1942E003D9D47 /* Build configuration list for PBXProject "MileHigh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E5AFC7E1E9CA6F900B8F5FD /* Debug */,
-				2E5AFC7F1E9CA6F900B8F5FD /* Release */,
+				2E9A8C421EC1942E003D9D47 /* Debug */,
+				2E9A8C431EC1942E003D9D47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E5AFC801E9CA6F900B8F5FD /* Build configuration list for PBXNativeTarget "MileHigh" */ = {
+		2E9A8C441EC1942E003D9D47 /* Build configuration list for PBXNativeTarget "MileHigh WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E5AFC811E9CA6F900B8F5FD /* Debug */,
-				2E5AFC821E9CA6F900B8F5FD /* Release */,
+				2E9A8C451EC1942E003D9D47 /* Debug */,
+				2E9A8C461EC1942E003D9D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E9A8C481EC1942E003D9D47 /* Build configuration list for PBXNativeTarget "MileHigh WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E9A8C491EC1942E003D9D47 /* Debug */,
+				2E9A8C4A1EC1942E003D9D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E9A8C4C1EC1942E003D9D47 /* Build configuration list for PBXNativeTarget "MileHigh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E9A8C4D1EC1942E003D9D47 /* Debug */,
+				2E9A8C4E1EC1942E003D9D47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2E5AFC641E9CA6F900B8F5FD /* Project object */;
+	rootObject = 2E9A8C091EC1942E003D9D47 /* Project object */;
 }
